@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín - Carta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo">💙 Para mi persona especial 💙</h1>
+
+    <audio id="musica" src="musica_relajante.mp3" loop></audio>
+
+    <div class="contenedor">
+        <div class="envoltura-sobre" id="envoltura">
+            <div class="sobre">
+                <div class="solapa-derecha"></div>
+                <div class="solapa-izquierda"></div>
+                <div class="corazon" id="corazon">💌</div> <!-- Ícono de la carta -->
+                <div class="carta" id="carta">
+                    <div class="contenido">
+                        <div id="confeti"></div>
+                        <div id="petalos"></div>
+                        <p class="mensaje">
+                            Querida Estrella,  
+                            <br><br>
+                            Si el amor fuera un color, tú serías la mezcla perfecta de todos.  
+                            Si la felicidad fuera una melodía, tú serías mi canción favorita.  
+                            Gracias por iluminar mis días con tu luz y hacerme sonreír sin razón.  
+                            <br><br>
+                            💙 <strong>Feliz San Valentín</strong> 💙  
+                        </p>
+                        <div class="video-container">
+                            <video src="converted_video.mp4" controls></video>
+                        </div>
+                        <p class="firma">Con todo mi amor,  
+                            <span id="firma-animada"></span>  
+                        </p>
+                        <button id="cerrar">Cerrar Carta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="musica-boton">🎵 Reproducir música</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
